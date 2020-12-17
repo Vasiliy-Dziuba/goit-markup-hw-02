@@ -1,0 +1,31 @@
+.page {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый цвет #FFFFFF */
+/* акцент */
+/* вторичный цвет фона темный #2F303A */
+/* вторичный цвет фона серый #F5F4FA */
+.logo {
+  color: #2196f3;
+  color: #000000;
+}
+/* утилита сброса точек списка */
+.list {
+  list-style: none;
+}
+/* site-nav */
+.site-nav .link {
+  color: #212121;
+}
+site-nav .link:hover,
+site-nav .link:focus {
+  color: #2196f3;
+}
+/* auth-nav */
+.auth-nav .link {
+  color: #757575;
+}
