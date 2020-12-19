@@ -5,34 +5,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Веб Студия</title>
-  <link rel="stylesheet" href="./css/styles.css"/>
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
+<body class="page">
   <!--Шапка сайта-->
   <header>
     <nav>
       <!--Для того, что бы при нажатии на лого, возвращало на главную страницу-->
-      <a href="./index.html" aria-label="Логотип">
+      <a href="./index.html" aria-label="Логотип" class="logo">
         <img src="/image/logo.svg" alt="Логотип" />
         Web Studio
       </a>
-      <ul>
+      <ul class="site-nav list">
         <li>
-          <a href="">Студия</a>
+          <a href="./index.html" class="link">Студия</a>
         </li>
         <li>
-          <a href="">Портфолио</a>
+          <a href="./portfolio.html" class="link current">Портфолио</a>
         </li>
         <li>
-          <a href="">Контакты</a>
+          <a href="" class="link">Контакты</a>
         </li>
       </ul>
     </nav>
-    <div>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <div class="auth-nav list">
+      <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
 
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
     </div>
   </header>
   <main>
@@ -40,7 +40,7 @@
   <section>
     <h1 hidden>Портфолио</h1>
   <nav>
-  <ul>
+  <ul class="list">
   <li><button type="button">Все</button></li>
   <li><button type="button">Веб-сайты</button></li>
   <li><button type="button">Приложение</button></li>
@@ -48,7 +48,7 @@
   <li><button type="button">Маркетинг</button></li>
 </ul>
 </nav>
-       <ul>
+       <ul class="list">
         <li>
           <a href="#">
           <img src="./image/portfolio/website.jpg" width="370" alt="фото вебсайт" />

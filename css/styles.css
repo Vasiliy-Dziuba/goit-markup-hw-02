@@ -28,6 +28,9 @@
 .site-nav .link:focus {
   color: #2196f3;
 }
+.site-nav .link.current {
+  color: #2196f3;
+}
 /* auth-nav */
 .auth-nav .link {
   color: #757575;
