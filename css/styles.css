@@ -1,18 +1,21 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent: #2196f3;
+}
 .page {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* основной цвет текста #757575 */
 /* вторичный цвет текста #212121 */
+/* вторичный цвет текста rgba(255, 255, 255, 0.6) */
 /* белый цвет #FFFFFF */
-/* акцент */
+/* акцент #212121*/
 /* вторичный цвет фона темный #2F303A */
 /* вторичный цвет фона серый #F5F4FA */
-.logo {
-  color: #2196f3;
-  color: #000000;
-}
+
 /* утилита сброса точек списка */
 .list {
   list-style: none;
@@ -28,4 +31,18 @@
 /* auth-nav */
 .auth-nav .link {
   color: #757575;
+}
+.auth-nav .link:hover {
+  color: #2196f3;
+}
+/* Hero */
+.hero-title {
+  color: var(--title-text-color);
+}
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+.footer-addres {
+  color: orange;
 }
