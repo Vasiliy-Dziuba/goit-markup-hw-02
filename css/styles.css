@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent: #2196f3;
+  --white-color: #ffffff;
 }
 .page {
   background-color: #ffffff;
@@ -40,12 +41,32 @@
 }
 /* Hero */
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--white-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+.button {
+  color: var(--white-color);
+  background-color: #2196f3;
 }
 /* Section */
 .section-title {
   color: var(--title-text-color);
 }
-.footer-addres {
-  color: orange;
+.section.background {
+  background-color: #f5f4fa;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.addres {
+  color: var(--white-color);
+}
+.mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel {
+  color: rgba(255, 255, 255, 0.6);
 }
